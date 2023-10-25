@@ -1,0 +1,29 @@
+.grid {
+    display: grid;
+    width: 28rem;
+    height: 40rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: min-content;
+    background-color: #ff0000;
+    margin: 2rem 25rem;
+    padding-top: 3rem 5rem;
+}
+
+
+
+img {
+    height: 3rem;
+    width: 3rem;
+}
+
+.grid .row5 {
+    height: 12rem;
+}
+
+.grid .row6 {
+    background-color: rgb(226, 174, 174);
+}
+
+section {
+    padding-left: 2rem; 
+}
